@@ -3,7 +3,7 @@ FROM sevketcaba/qt6-dev:linux-desktop-base-6.5.0
 RUN apt-get update
 RUN apt-get install -y -q \
     uuid-dev \
-    openjdk-8-jdk
+    openjdk-11-jdk
 
 ARG QT=6.5.0
 ARG QT_MODULES="qtserialport"
