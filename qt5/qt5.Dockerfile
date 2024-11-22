@@ -3,7 +3,7 @@ FROM sevketcaba/qt5-dev:linux-desktop-base-5.15.2
 RUN apt-get update
 RUN apt-get install -y -q \
     uuid-dev \
-    openjdk-8-jdk
+    openjdk-11-jdk
 
 WORKDIR /project
 RUN git clone https://github.com/COVESA/dlt-viewer.git
